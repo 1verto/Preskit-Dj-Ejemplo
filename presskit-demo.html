@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VALENTIN M. — DJ Presskit | House & Deep House</title>
+  <meta name="description" content="Presskit oficial de Valentin M. — DJ de House y Deep House. Booking, rider técnico, mixes y galería." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="presskit-demo.css" />
+</head>
+<body class="is-loading">
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- PAGE LOADER -->
+  <div class="loader" id="page-loader">
+    <div class="loader-inner">
+      <div class="loader-logo">VM.</div>
+      <div class="loader-bar"><div class="loader-progress" id="loader-progress"></div></div>
+      <div class="loader-text" id="loader-text">Cargando experiencia...</div>
+    </div>
+  </div>
+
+  <!-- DEMO NOTICE -->
+  <div class="demo-topbar" id="demo-bar">
+    <span>★ Ejemplo de presskit por <strong>PresskitDJ</strong> — ¿Quieres el tuyo?</span>
+    <a href="index.html#contacto">Contáctanos →</a>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="pk-nav" id="pk-nav">
+    <div class="pk-nav-inner">
+      <div class="pk-nav-logo">VM.</div>
+      <ul class="pk-nav-links">
+        <li><a href="#about" class="pk-link" data-text="Bio">Bio</a></li>
+        <li><a href="#music" class="pk-link" data-text="Música">Música</a></li>
+        <li><a href="#gallery" class="pk-link" data-text="Galería">Galería</a></li>
+        <li><a href="#booking" class="pk-link" data-text="Booking">Booking</a></li>
+      </ul>
+      <a href="#booking" class="pk-cta-btn">
+        <span>Contratar</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ══════════════════════════════════ -->
+  <section class="pk-hero" id="top">
+    <div class="pk-hero-bg" id="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&q=90"
+        alt="Valentin M. DJ performance"
+        id="hero-img"
+      />
+      <div class="pk-hero-vignette"></div>
+      <div class="pk-hero-scanlines"></div>
+    </div>
+
+
+
+    <div class="pk-hero-content">
+      <div class="hero-line-reveal">
+        <span class="pk-genre-tag hero-anim" style="--i:0">
+          <span class="genre-dot"></span>
+          House · Deep House · Electronic
+        </span>
+      </div>
+
+      <div class="pk-dj-name-wrap">
+        <div class="name-line hero-anim" style="--i:1">
+          <span class="name-char">V</span><span class="name-char">A</span><span class="name-char">L</span><span class="name-char">E</span><span class="name-char">N</span><span class="name-char">T</span><span class="name-char">I</span><span class="name-char">N</span>
+        </div>
+        <div class="name-line name-line-accent hero-anim" style="--i:2">
+          <span class="name-char">M</span><span class="name-char name-dot">.</span>
+        </div>
+      </div>
+
+      <div class="hero-anim pk-location" style="--i:3">
+        <span class="loc-item">Medellín</span>
+        <span class="loc-sep">↗</span>
+        <span class="loc-item">Miami</span>
+        <span class="loc-sep">↗</span>
+        <span class="loc-item">Ibiza</span>
+      </div>
+
+      <div class="pk-hero-actions hero-anim" style="--i:4">
+        <a href="#music" class="pk-btn-primary magnetic-btn" id="hero-listen-btn">
+          <span class="btn-bg"></span>
+          <span class="btn-label">Escuchar mixes</span>
+          <span class="btn-icon">▶</span>
+        </a>
+        <a href="#booking" class="pk-btn-ghost magnetic-btn">
+          <span>Booking & Rider</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══ STATS ══════════════════════════════════ -->
+  <div class="pk-stats" id="pk-stats">
+    <div class="stats-inner">
+      <div class="pk-stat" data-count="8" data-suffix="+">
+        <div class="stat-num-wrap"><span class="pk-stat-num">0</span><span class="pk-stat-suffix">+</span></div>
+        <span class="pk-stat-label">Años en la escena</span>
+      </div>
+      <div class="stat-vr"></div>
+      <div class="pk-stat" data-count="150" data-suffix="K">
+        <div class="stat-num-wrap"><span class="pk-stat-num">0</span><span class="pk-stat-suffix">K</span></div>
+        <span class="pk-stat-label">Seguidores totales</span>
+      </div>
+      <div class="stat-vr"></div>
+      <div class="pk-stat" data-count="12" data-suffix="">
+        <div class="stat-num-wrap"><span class="pk-stat-num">0</span><span class="pk-stat-suffix"></span></div>
+        <span class="pk-stat-label">Países</span>
+      </div>
+      <div class="stat-vr"></div>
+      <div class="pk-stat" data-count="3" data-suffix="">
+        <div class="stat-num-wrap"><span class="pk-stat-num">0</span><span class="pk-stat-suffix"></span></div>
+        <span class="pk-stat-label">Residencias activas</span>
+      </div>
+      <div class="stat-vr"></div>
+      <div class="pk-stat" data-count="200" data-suffix="+">
+        <div class="stat-num-wrap"><span class="pk-stat-num">0</span><span class="pk-stat-suffix">+</span></div>
+        <span class="pk-stat-label">Shows en 2024</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ ABOUT ══════════════════════════════════ -->
+  <section class="pk-about" id="about">
+    <div class="pk-about-inner">
+
+      <div class="about-visual reveal-left">
+        <div class="about-img-frame">
+          <img
+            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=900&q=85"
+            alt="Valentin M. DJ portrait"
+            class="about-main-img"
+          />
+          <div class="img-glare"></div>
+        </div>
+        <!-- Floating card over image -->
+        <div class="about-float-card">
+          <div class="afc-icon">🎵</div>
+          <div>
+            <strong>Próxima fecha</strong>
+            <span>Sáb 15 Mar — Space Miami</span>
+          </div>
+        </div>
+        <!-- Accent line -->
+        <div class="about-accent-line"></div>
+      </div>
+
+      <div class="about-text reveal-right">
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span>Sobre el artista</span>
+        </div>
+        <h2 class="about-heading">
+          La voz del<br/>
+          <span class="heading-accent">house</span><br/>
+          latinoamericano
+        </h2>
+        <p>Valentin M. es uno de los DJs más influyentes de la escena electrónica de habla hispana. Nacido en Medellín, su carrera despegó en 2016 con su residencia en Cali, para luego conquistar escenarios en Miami, Barcelona e Ibiza.</p>
+        <p>Con un estilo inconfundible que mezcla el deep house melódico con elementos de la música latina, ha tocado en <strong>Space Miami, Sunburn Festival, Ushuaïa Ibiza</strong> y el <strong>Festival Estéreo Picnic.</strong></p>
+
+        <div class="pk-tags">
+          <span class="pk-tag">House</span>
+          <span class="pk-tag">Deep House</span>
+          <span class="pk-tag">Melodic Techno</span>
+          <span class="pk-tag">Afro House</span>
+          <span class="pk-tag">Progressive</span>
+          <span class="pk-tag">Latin Electronic</span>
+        </div>
+
+        <div class="about-logos">
+          <span class="venue-logo">Space Miami</span>
+          <span class="venue-sep">·</span>
+          <span class="venue-logo">Ushuaïa</span>
+          <span class="venue-sep">·</span>
+          <span class="venue-logo">Sunburn</span>
+          <span class="venue-sep">·</span>
+          <span class="venue-logo">Estéreo Picnic</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ VIDEO ══════════════════════════════════ -->
+  <section class="pk-video-section">
+    <div class="pk-video-inner">
+      <div class="video-label-top reveal-up">
+        <span class="eyebrow-line"></span>
+        <span>En vivo</span>
+      </div>
+      <h2 class="video-heading reveal-up">Momentos <span class="heading-accent">épicos</span></h2>
+      <div class="pk-video-frame reveal-up">
+        <div class="video-chrome">
+          <div class="chrome-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="chrome-title">Valentin M. — Live @ Space Miami 2024</div>
+        </div>
+        <iframe
+          src="https://www.youtube.com/embed/tKi9Z-f6qX4?controls=1&rel=0&modestbranding=1"
+          title="Valentin M. Live Set"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="video-corner tl"></div>
+        <div class="video-corner tr"></div>
+        <div class="video-corner bl"></div>
+        <div class="video-corner br"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MUSIC ══════════════════════════════════ -->
+  <section class="pk-music" id="music">
+    <div class="pk-music-inner">
+      <div class="music-header reveal-up">
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span>Mixes & Tracks</span>
+        </div>
+        <h2 class="music-heading">Escucha su <span class="heading-accent">música</span></h2>
+      </div>
+
+      <!-- Player -->
+      <div class="pk-mix-player reveal-up">
+        <div class="player-header">
+          <div class="player-header-left">
+            <div class="player-eq">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <span class="player-live">LIVE MIX</span>
+          </div>
+          <a href="https://soundcloud.com" target="_blank" class="player-sc-link">SoundCloud ↗</a>
+        </div>
+        <iframe
+          width="100%"
+          height="200"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1836651631&color=%23f59e0b&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
+      </div>
+
+      <!-- Track list -->
+      <div class="pk-tracks reveal-up">
+        <div class="pk-track" data-index="01">
+          <span class="track-num">01</span>
+          <div class="track-play-btn">▶</div>
+          <div class="pk-track-info">
+            <div class="pk-track-title">Midnight in Medellín</div>
+            <div class="pk-track-meta">Original Mix · 2024</div>
+          </div>
+          <div class="track-wave">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="pk-track-dur">7:42</span>
+        </div>
+        <div class="pk-track" data-index="02">
+          <span class="track-num">02</span>
+          <div class="track-play-btn">▶</div>
+          <div class="pk-track-info">
+            <div class="pk-track-title">Ibiza Sunset Sessions Vol. 3</div>
+            <div class="pk-track-meta">DJ Mix · 2024</div>
+          </div>
+          <div class="track-wave">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="pk-track-dur">62:15</span>
+        </div>
+        <div class="pk-track" data-index="03">
+          <span class="track-num">03</span>
+          <div class="track-play-btn">▶</div>
+          <div class="pk-track-info">
+            <div class="pk-track-title">Alma (feat. DJ Yalé)</div>
+            <div class="pk-track-meta">Afro House · 2023</div>
+          </div>
+          <div class="track-wave">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="pk-track-dur">8:14</span>
+        </div>
+        <div class="pk-track" data-index="04">
+          <span class="track-num">04</span>
+          <div class="track-play-btn">▶</div>
+          <div class="pk-track-info">
+            <div class="pk-track-title">Space Miami B2B Set</div>
+            <div class="pk-track-meta">Live Recording · 2023</div>
+          </div>
+          <div class="track-wave">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="pk-track-dur">90:00</span>
+        </div>
+        <div class="pk-track" data-index="05">
+          <span class="track-num">05</span>
+          <div class="track-play-btn">▶</div>
+          <div class="pk-track-info">
+            <div class="pk-track-title">Estéreo Picnic 2024</div>
+            <div class="pk-track-meta">Festival Set · 2024</div>
+          </div>
+          <div class="track-wave">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="pk-track-dur">45:20</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ GALLERY ══════════════════════════════════ -->
+  <section class="pk-gallery" id="gallery">
+    <div class="gallery-header reveal-up">
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        <span>Imágenes</span>
+      </div>
+      <h2 class="gallery-heading">Momentos en <span class="heading-accent">escena</span></h2>
+    </div>
+
+    <div class="pk-gallery-grid">
+      <div class="gallery-item gi-large reveal-scale" style="--delay:0s">
+        <img src="https://images.unsplash.com/photo-1598387993441-a364f854cfba?w=900&q=85&auto=format&fit=crop" alt="Festival" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Festival Estéreo Picnic · 2024</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal-scale" style="--delay:0.1s">
+        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&q=85&auto=format&fit=crop" alt="DJ booth" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Space Miami · 2024</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal-scale" style="--delay:0.15s">
+        <img src="https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?w=600&q=85&auto=format&fit=crop" alt="Performance" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Ushuaïa Ibiza · 2023</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal-scale" style="--delay:0.2s">
+        <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=600&q=85&auto=format&fit=crop" alt="En escena" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Club Aguila · Bogotá</span>
+        </div>
+      </div>
+      <div class="gallery-item reveal-scale" style="--delay:0.25s">
+        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=85&auto=format&fit=crop" alt="Equipos" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Studio Session · 2024</span>
+        </div>
+      </div>
+      <div class="gallery-item gi-wide reveal-scale" style="--delay:0.3s">
+        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=900&q=85&auto=format&fit=crop" alt="Night club" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <span class="gi-caption">Sunburn Festival · Goa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BOOKING & RIDER ══════════════════════════ -->
+  <section class="pk-booking" id="booking">
+    <div class="pk-booking-inner">
+
+      <div class="booking-left reveal-left">
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span>Contratación</span>
+        </div>
+        <h2 class="booking-heading">Booking<br/><span class="heading-accent">&amp; Rider</span></h2>
+        <p>Para fechas, residencias, festivales y eventos privados. Respondemos en menos de 24 horas.</p>
+
+        <div class="pk-contact-list">
+          <a href="mailto:booking@valentinm.com" class="pk-contact-row magnetic-btn">
+            <div class="contact-row-icon">📧</div>
+            <div class="contact-row-text">
+              <strong>Email</strong>
+              <span>booking@valentinm.com</span>
+            </div>
+            <div class="contact-row-arrow">↗</div>
+          </a>
+          <a href="#" class="pk-contact-row magnetic-btn">
+            <div class="contact-row-icon">📱</div>
+            <div class="contact-row-text">
+              <strong>Instagram DM</strong>
+              <span>@valentin.m.dj</span>
+            </div>
+            <div class="contact-row-arrow">↗</div>
+          </a>
+          <div class="pk-contact-row no-link">
+            <div class="contact-row-icon">🌍</div>
+            <div class="contact-row-text">
+              <strong>Disponibilidad</strong>
+              <span>Latam · Europa · USA</span>
+            </div>
+          </div>
+          <div class="pk-contact-row no-link">
+            <div class="contact-row-icon">📅</div>
+            <div class="contact-row-text">
+              <strong>Agenda 2025</strong>
+              <span>Disponible desde Agosto</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="mailto:booking@valentinm.com" class="pk-btn-primary magnetic-btn" style="margin-top:8px;">
+          <span class="btn-bg"></span>
+          <span class="btn-label">Enviar propuesta</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="booking-right reveal-right">
+        <div class="pk-rider">
+          <div class="rider-header">
+            <h3>Rider Técnico</h3>
+            <span class="rider-badge">2025</span>
+          </div>
+          <ul class="pk-rider-list">
+            <li class="rider-item">
+              <span class="rider-icon-wrap">🎚️</span>
+              <div>
+                <strong>Mixer</strong>
+                <span>Pioneer DJM-900NXS2 (o equivalente)</span>
+              </div>
+            </li>
+            <li class="rider-item">
+              <span class="rider-icon-wrap">💿</span>
+              <div>
+                <strong>CDJs</strong>
+                <span>2× Pioneer CDJ-3000</span>
+              </div>
+            </li>
+            <li class="rider-item">
+              <span class="rider-icon-wrap">🎧</span>
+              <div>
+                <strong>Auriculares</strong>
+                <span>El artista lleva los propios</span>
+              </div>
+            </li>
+            <li class="rider-item">
+              <span class="rider-icon-wrap">🔌</span>
+              <div>
+                <strong>Conexión</strong>
+                <span>USB + link ethernet entre CDJs</span>
+              </div>
+            </li>
+            <li class="rider-item">
+              <span class="rider-icon-wrap">🔊</span>
+              <div>
+                <strong>Monitoring</strong>
+                <span>Monitor de escenario requerido</span>
+              </div>
+            </li>
+            <li class="rider-item">
+              <span class="rider-icon-wrap">🚗</span>
+              <div>
+                <strong>Hospitalidad</strong>
+                <span>Transfer + 1 noche hotel incluido</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ SOCIAL ══════════════════════════════════ -->
+  <section class="pk-social" id="social">
+    <div class="pk-social-inner">
+      <div class="social-header reveal-up">
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span>Redes</span>
+        </div>
+        <h2 class="social-heading">Comunidad <span class="heading-accent">&amp; Alcance</span></h2>
+      </div>
+      <div class="pk-social-grid reveal-up">
+        <a href="#" class="pk-social-card magnetic-btn" aria-label="Instagram">
+          <div class="social-card-icon">📸</div>
+          <div class="social-card-body">
+            <strong>Instagram</strong>
+            <span>@valentin.m.dj</span>
+          </div>
+          <div class="social-card-count">89K</div>
+          <div class="social-card-arrow">↗</div>
+        </a>
+        <a href="#" class="pk-social-card magnetic-btn" aria-label="SoundCloud">
+          <div class="social-card-icon">🎵</div>
+          <div class="social-card-body">
+            <strong>SoundCloud</strong>
+            <span>valentin-m-music</span>
+          </div>
+          <div class="social-card-count">34K</div>
+          <div class="social-card-arrow">↗</div>
+        </a>
+        <a href="#" class="pk-social-card magnetic-btn" aria-label="YouTube">
+          <div class="social-card-icon">▶️</div>
+          <div class="social-card-body">
+            <strong>YouTube</strong>
+            <span>Valentin M. Official</span>
+          </div>
+          <div class="social-card-count">27K</div>
+          <div class="social-card-arrow">↗</div>
+        </a>
+        <a href="#" class="pk-social-card magnetic-btn" aria-label="Beatport">
+          <div class="social-card-icon">🎛️</div>
+          <div class="social-card-body">
+            <strong>Beatport</strong>
+            <span>valentin-m</span>
+          </div>
+          <div class="social-card-count">Top 50</div>
+          <div class="social-card-arrow">↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══════════════════════════════════ -->
+  <footer class="pk-footer">
+    <div class="footer-noise"></div>
+    <div class="pk-footer-inner">
+      <div class="footer-logo-big">VALENTIN M.</div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom-row">
+        <p class="footer-copy">© 2025 Valentin M. Todos los derechos reservados.</p>
+        <p class="pk-footer-credit">
+          Presskit creado por <a href="index.html">PresskitDJ</a> ·
+          <a href="index.html#contacto">¿Quieres el tuyo?</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="presskit-demo.js"></script>
+</body>
+</html>
